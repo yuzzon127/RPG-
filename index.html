@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title> Mini RPG</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="game-container">
+            <h1>Aventura Sombria</h1>
+            <div id="story">Bem-vindo(a) à sua nova aventura!</div>
+            <div id="choices">
+                <button onclick="chooseOption('Explorar')">Explorar</button>
+                <button onclick="chooseOption('Descansar')">Descansar</button>
+                <button onclick="chooseOption('Lutar')">Lutar</button>
+            </div>
+        <div id="status">
+            ❤️Vida: <span id="vida">100</span> | ⚔️ Força: <span id="forca">10</span>
+        </div>
+    </div>
+    <script  src="script.js"></script>
+    </body>
+</html>
